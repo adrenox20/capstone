@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrungePort</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -80,46 +83,102 @@
             <p>I am a visual artist with a passion for grunge style. My work is inspired by the raw energy of urban environments and the chaotic beauty of distressed elements.</p>
         </section>
         <section class="services">
-            <h2>What I Do</h2>
-            <ul>
-                <li>Photography</li>
-                <li>Mixed Media</li>
-                <li>Illustration</li>
-                <li>Graphic Design</li>
-                <li>Digital Art</li>
-            </ul>
+            <div class="container1">
+                <h2>What i do?</h2>
+                
+                <div class="items1">
+                  <div class="leftcolumn1">
+                    <p>Photography</p>
+                    <p>Mixed Media</p>
+                    <p>Illustration</p>
+                  </div>
+                  <div class="right-column1">
+                    <p>Graphic Design</p>
+                    <p>Digital Art</p>
+                  </div>
+                </div>
+              </div>
         </section>
-        <section class="discover">
-            <h2>Discover My Work</h2>
-            <p>Explore my portfolio and get in touch to collaborate on your next project.</p>
-            <!-- <img src="https://via.placeholder.com/400x300" alt="Person with arms crossed"> -->
-        </section>
+        
+        <div class="container-discover">
+                <div class="discover-text">
+                  <h1>Discover My<br>Work</h1>
+                  <p>Explore my portfolio and get in touch to collaborate on your next project.</p>
+                </div>
+                <div class="discover-image">
+                  <img src="asset/edf8adda54a7f788d44293907658a70c.png" alt="Person standing">
+                </div>
+              </div>
+              <hr>
+        
+        <h1 class="section-title">What My Clients Say</h1>
         <section class="testimonials">
-            <h2>What My Clients Say</h2>
-            <div class="testimonial">
-                <p>Amazing creativity and unique style!</p>
-                <p>- Client 1</p>
-            </div>
-            <div class="testimonial">
-                <p>A true visionary in the art scene.</p>
-                <p>- Client 2</p>
-            </div>
-            <div class="testimonial">
-                <p>Captures the essence of urban aesthetics.</p>
-                <p>- Client 3</p>
+            
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://via.placeholder.com/50" alt="Alexandra Wolfe">
+                        <div>
+                            <h4>Alexandra Wolfe</h4>
+                            <p>Art Director</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        Amazing creativity and a unique style!
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://via.placeholder.com/50" alt="Jordan Blake">
+                        <div>
+                            <h4>Jordan Blake</h4>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        Transforms raw elements into stunning art.
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://via.placeholder.com/50" alt="Morgan Lee">
+                        <div>
+                            <h4>Morgan Lee</h4>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        A true visionary in the grunge art scene.
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="https://via.placeholder.com/50" alt="Riley Harper">
+                        <div>
+                            <h4>Riley Harper</h4>
+                            <p>Creative Director</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        Captures the essence of street culture perfectly.
+                    </div>
+                </div>
             </div>
         </section>
         <section class="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-                <input type="submit" value="Send">
-            </form>
+            <div class="contact-form">
+                <h1>Contact Me</h1>
+                <p>Fill out the form below to get in touch.</p>
+                <div class="otp-box">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                    <input type="text" maxlength="1">
+                </div>
+                <button>Submit</button>
+                <a href="#">Skip</a>
+            </div>
             <div class="social-media">
                 <a href="#">Follow Me</a>
             </div>
