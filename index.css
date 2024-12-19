@@ -1,3 +1,9 @@
+.dotgothic16-regular {
+    font-family: "DotGothic16", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,6 +25,7 @@ header {
 header .logo {
     font-size: 24px;
     font-weight: bold;
+    font-family: "DotGothic16", serif;
 }
 
 header nav ul {
@@ -30,6 +37,7 @@ header nav ul {
 
 header nav ul li {
     margin-left: 20px;
+    font-family: "DotGothic16", serif;
 }
 
 header nav ul li a {
@@ -50,6 +58,7 @@ header nav ul li a {
 }
 
 .banner h1 {
+    font-family: "DotGothic16", serif;
     font-size: 120px;
     line-height: 120px;
     margin: 0;
@@ -122,6 +131,7 @@ header nav ul li a {
     text-align: center;
     font-size: 48px;
     line-height: 52px;
+    font-family: "DotGothic16", serif;
 }
 .about p {
     margin: auto;
@@ -140,9 +150,6 @@ header nav ul li a {
     padding: 5px 0;
 }
 
-.testimonials .testimonial {
-    margin-bottom: 10px;
-}
 
 .social-media {
     text-align: center;
@@ -158,25 +165,7 @@ footer {
     margin-top: 20px;
 }
 
-/* .project {
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
-.project img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.project p {
-    margin: 10px 0;
-    color: #333;
-} */
 
 @media (max-width: 768px) {
     .projects {
@@ -191,4 +180,232 @@ footer {
         display: none;
     }
 }
+
+  
+.container1 {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    align-items: start;
+  }
+  
+  .container1 h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-align: left;
+    flex-shrink: 0;
+    align-items: flex-start;
+}
+  
+  .items1 {
+    display: flex;
+    justify-content:space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+  
+  .leftcolumn1, .right-column1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftcolumn1 p, .right-column1 p {
+    margin: 10px 0;
+  }
+  
+
+.section-title  {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+    padding-bottom: 48px;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.testimonial-header h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.testimonial-header p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.testimonial-content {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.testimonial-content:before {
+    content: '\201C';
+    font-size: 1.5rem;
+    vertical-align: top;
+    line-height: 0.5;
+    color: #999;
+}
+
+.testimonial-content:after {
+    content: '\201D';
+    font-size: 1.5rem;
+    vertical-align: bottom;
+    line-height: 0.5;
+    color: #999;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.contact-form {
+    text-align: center;
+    height: 400px;
+    gap: 32px
+    ;
+}
+
+.contact-form h1 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.otp-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.otp-box input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding:10px 150px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: darkblue;
+}
+
+.contact-form a {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: rgb(134, 134, 170);
+    text-decoration: none;
+}
+
+.contact-form a:hover {
+    text-decoration: underline;
+}
+
+.container-discover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .discover-text {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .discover-text h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1.2;
+    font-family: "DotGothic16", serif;
+  }
+  
+  .discover-text p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .discover-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .discover-image img {
+    max-height: 80vh;
+    width: auto;
+    object-fit: cover;
+    display: block;
+  }
+  
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px auto;
+    width: 90%;
+  }
 
